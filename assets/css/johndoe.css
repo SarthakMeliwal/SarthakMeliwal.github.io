@@ -11504,10 +11504,10 @@ pre .code {
 
 .header {
   position: relative;
-  height: 80vh;
-  min-height: 600px;
+  height: 40vh;
+  min-height: 400px;
   background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../imgs/header.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11545,7 +11545,7 @@ pre .code {
 }
 
 .header .header-content .header-mono {
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-weight: 500;
   font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
   margin-bottom: 40px;
@@ -11681,4 +11681,9 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+.img-item{
+    width:100%;
+    max-width:600px;
 }
